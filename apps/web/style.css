@@ -1,0 +1,22 @@
+body {
+  margin: 0;
+  display: flex;
+  height: 100vh;
+  background: #0d1117;
+  color: #0f0;
+  font-family: monospace;
+}
+
+#sidebar {
+  width: 200px;
+  border-right: 1px solid #222;
+}
+
+#editor {
+  flex: 1;
+}
+
+#terminal {
+  height: 200px;
+  background: black;
+}
